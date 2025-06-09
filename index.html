@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfect Coaching Classes</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+    }
+    header {
+      background: #0066cc;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      background: #004d99;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603573709709-5f10f1ba8a1a?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h1 {
+      font-size: 48px;
+    }
+    .container {
+      padding: 40px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      color: #333;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .course-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #004d99;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+    }
+    form button {
+      background: #0066cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Perfect Coaching Classes</h1>
+  <p>Empowering Students for a Brighter Future</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Courses</a>
+  <a href="#">Admissions</a>
+  <a href="#">Timetable</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Enroll Now for 2025 Batch!</h1>
+</div>
+
+<div class="container">
+
+  <!-- Courses -->
+  <div class="section">
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="course-card">
+        <h3>Class 10 - CBSE</h3>
+        <p>Mathematics, Science, English, Social Studies</p>
+      </div>
+      <div class="course-card">
+        <h3>Class 12 - Science</h3>
+        <p>Physics, Chemistry, Maths, Biology</p>
+      </div>
+      <div class="course-card">
+        <h3>NEET/JEE Foundation</h3>
+        <p>Early preparation courses for engineering and medical aspirants.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admission Info -->
+  <div class="section">
+    <h2>Admissions</h2>
+    <p>Admissions for the new academic session are now open! Limited seats available for each batch.</p>
+    <ul>
+      <li>Fill out the admission form at our center</li>
+      <li>Entrance test dates: Every Saturday</li>
+      <li>Scholarships available based on test performance</li>
+    </ul>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2025 Perfect Coaching Classes. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
